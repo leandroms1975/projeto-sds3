@@ -32,8 +32,8 @@ public class SaleService {
 	}
 	
 	@Transactional(readOnly = true)
-	public List<SaleSumDTO> amountGroupBySeller() {
-		return repository.amountGroupBySeller();
+	public List<SaleSumDTO> amountGroupedBySeller() {
+		return repository.amountGroupedBySeller();
 	}
 	
 	@Transactional(readOnly = true)
